@@ -69,7 +69,7 @@ class _SwitchListTileHomePageState extends State<SwitchListTileHomePage> {
           ),
           Divider(),
           SwitchListTile(
-            value: this.settingValues[2],
+            value: this.settingValues[3],
             onChanged: (bool value) { onSwitchFourChange(value); },
             title: Text(this.settings[3]),
             secondary: Icon(Icons.bluetooth),
