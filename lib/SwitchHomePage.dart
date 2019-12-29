@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class SwitchHomePage extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => SwitchHomePageState();
+  State<StatefulWidget> createState() => _SwitchHomePageState();
 }
 
-class SwitchHomePageState extends State<SwitchHomePage> {
+class _SwitchHomePageState extends State<SwitchHomePage> {
   final List<String> settings = [
     'Airplane mode',
     'WLAN',
